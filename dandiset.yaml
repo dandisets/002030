@@ -171,22 +171,20 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-10-15T22:03:52.042907+00:00'
-description: "Processed one-photon calcium imaging data from dorsal hippocampal CA1
-  of 13 adult C57BL/6J mice of both sexes (344-394 days old on the day of recording)
-  freely exploring a circular open-field arena (diameter 96 cm) with visual landmarks
-  on the walls. Each mouse was recorded on three consecutive days, one session of
-  about 12 minutes per day: 39 sessions and 14,533 neuron-sessions in total (26-695
-  neurons per session). GCaMP6s was expressed with AAV/DJ-CAG-GCaMP6s and imaged through
-  a GRIN lens with a head-mounted Miniscope V4.4, while a top-mounted camera filmed
-  the animal.\n\nEach NWB file holds one session: fluorescence traces (dF/F) of the
-  components retained after motion correction (NoRMCorre), source extraction (CNMF-E)
-  and visual inspection, and 14 behavioural variables on the time base of the imaging
-  frames (nominal 30 frames per second): position of the body centre, speed, body
-  and head direction, locomotor states (rest, walk, run), freezing, rearing and occupancy
-  of the wall, intermediate and central zones of the arena.\n\nRaw miniscope and behaviour
-  videos and the spatial footprints of the components are not included. The dataset
-  accompanies the DRIADA paper; scripts that reproduce its real-data figures from
-  these files are in the DRIADA repository (publications/elife)."
+description: "Calcium imaging of dorsal hippocampal CA1 in 13 adult C57BL/6J mice
+  (5 female, 8 male) freely exploring a circular open-field arena (96 cm in diameter)
+  with visual cues on the walls. Each mouse was recorded once a day on three consecutive
+  days, about 12 minutes per session: 39 sessions, 26-695 neurons per session, 14,533
+  neuron-sessions in total. Neurons expressed GCaMP6s (AAV/DJ-CAG-GCaMP6s) and were
+  imaged through a GRIN lens with a Miniscope V4.4; a camera above the arena filmed
+  the animal.\n\nEach NWB file is one session. It holds dF/F traces of the neurons
+  kept after motion correction (NoRMCorre), source extraction (CNMF-E) and visual
+  inspection, and behavioural variables on the time base of the imaging frames (nominal
+  30 frames per second): position, speed, body and head direction, rest, walk and
+  run, freezing, rearing, and the zone of the arena the animal is in.\n\nNot included:
+  raw videos and the spatial footprints of the neurons.\n\nThe dataset accompanies
+  the DRIADA paper. Scripts that reproduce its figures from these files are in the
+  DRIADA repository (publications/elife)."
 ethicsApproval:
 - identifier: Commission of Bioethics of Lomonosov Moscow State University, Application
     No. 159-g, meeting No. 154-d-r, 17.08.2023
