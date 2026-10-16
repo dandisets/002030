@@ -45,8 +45,8 @@ assetsSummary:
 citation: Pospelov, Nikita; Plusnin, Viktor; Rogozhnikova, Olga; Ivanova, Anna; Sotskov,
   Vladimir; Orobets, Margarita; Toropova, Ksenia; Ivashkina, Olga; Avetisov, Vladik;
   Anokhin, Konstantin (2026) One-photon calcium imaging of dorsal CA1 with synchronized
-  behaviour in mice freely exploring a circular open field (Version draft) [Data set].
-  DANDI Archive. https://dandiarchive.org/dandiset/002030/draft
+  behaviour in mice freely exploring a circular open field (Version 0.261016.1321)
+  [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.002030/0.261016.1321
 contributor:
 - affiliation:
   - name: Institute for Advanced Brain Studies, Lomonosov Moscow State University,
@@ -171,6 +171,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-10-15T22:03:52.042907+00:00'
+datePublished: '2026-10-16T13:21:03.698633+00:00'
 description: "Calcium imaging of dorsal hippocampal CA1 in 13 adult C57BL/6J mice
   (5 female, 8 male) freely exploring a circular open-field arena (96 cm in diameter)
   with visual cues on the walls. Each mouse was recorded once a day on three consecutive
@@ -185,11 +186,12 @@ description: "Calcium imaging of dorsal hippocampal CA1 in 13 adult C57BL/6J mic
   raw videos and the spatial footprints of the neurons.\n\nThe dataset accompanies
   the DRIADA paper. Scripts that reproduce its figures from these files are in the
   DRIADA repository (publications/elife)."
+doi: 10.48324/dandi.002030/0.261016.1321
 ethicsApproval:
 - identifier: Commission of Bioethics of Lomonosov Moscow State University, Application
     No. 159-g, meeting No. 154-d-r, 17.08.2023
   schemaKey: EthicsApproval
-id: DANDI:002030/draft
+id: DANDI:002030/0.261016.1321
 identifier: DANDI:002030
 keywords:
 - hippocampus
@@ -205,9 +207,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/002030/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/002030/0.261016.1321/assets.yaml
 name: One-photon calcium imaging of dorsal CA1 with synchronized behaviour in mice
   freely exploring a circular open field
+publishedBy:
+  endDate: '2026-10-16T13:21:03.698633+00:00'
+  id: urn:uuid:0cc808d3-24ce-48c5-810e-b33b502ebd7d
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-10-16T13:21:03.698633+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:a8b84ff8-3eaf-4b66-8675-b10d7055c5e6
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: DRIADA
   relation: dcite:IsSupplementedBy
@@ -221,8 +235,9 @@ relatedResource:
   relation: dcite:IsCompiledBy
   schemaKey: Resource
   url: https://github.com/iabs-neuro/sphynx
+releaseNotes: v1.0
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/002030/draft
-version: draft
+url: https://dandiarchive.org/dandiset/002030/0.261016.1321
+version: 0.261016.1321
