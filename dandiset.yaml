@@ -3,6 +3,10 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0003881
+  name: CA1 field of hippocampus
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -23,8 +27,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 2215880019
-  numberOfFiles: 38
+  numberOfBytes: 2256347798
+  numberOfFiles: 39
   numberOfSubjects: 13
   schemaKey: AssetsSummary
   species:
